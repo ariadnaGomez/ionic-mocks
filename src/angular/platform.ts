@@ -15,6 +15,7 @@ export class PlatformMock {
             'ready',
             'registerBackButtonAction',
             'resize',
+            'timeout',
             'resume',
             'setDir',
             'setLang',
@@ -38,6 +39,7 @@ export class PlatformMock {
         instance.lang.and.returnValue('en');
         instance.platforms.and.returnValue([]);
         instance.ready.and.returnValue(Promise.resolve());
+        instance.timeout.and.returnValue(Promise.resolve());
         instance.registerBackButtonAction.and.returnValue(() => {
         });
         instance.url.and.returnValue('');
