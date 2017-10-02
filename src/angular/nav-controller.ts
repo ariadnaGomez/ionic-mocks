@@ -4,6 +4,7 @@ export class NavControllerMock {
         let instance = jasmine.createSpyObj('navController', [
             'push',
             'pop',
+            'registerChildNav',
             'ionViewDidLoad',
             'ionViewWillEnter',
             'ionViewDidEnter',
