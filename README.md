@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/stonelasley/ionic-mocks.svg?branch=master)](https://travis-ci.org/stonelasley/ionic-mocks)
 
 # ionic-mocks
-Simple test doubles for Ionic 2+ using Jasmine Spy Objects
+Simple test doubles for Ionic 3+ using Jasmine Spy Objects
 
 This project is still very early in development and there are several things I'm sorting out. However since this is only meant
 to be used in your tests it should be safe to pull into a project.
@@ -44,6 +44,7 @@ to be used in your tests it should be safe to pull into a project.
 - Network
 - Splashscreen
 - Network
+- ScreenOrientation
 
 ## Installation
 ```bash
