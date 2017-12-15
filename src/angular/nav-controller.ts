@@ -5,6 +5,7 @@ export class NavControllerMock {
       'push',
       'pop',
       'setRoot',
+      'popToRoot',
       'registerChildNav',
       'ionViewDidLoad',
       'ionViewWillEnter',
@@ -18,6 +19,7 @@ export class NavControllerMock {
     instance.push.and.returnValue(Promise.resolve());
     instance.pop.and.returnValue(Promise.resolve());
     instance.setRoot.and.returnValue(Promise.resolve());
+    instance.popToRoot.and.returnValue(Promise.resolve());
     instance.ionViewCanEnter.and.returnValue(true);
     instance.ionViewCanLeave.and.returnValue(true);
 
