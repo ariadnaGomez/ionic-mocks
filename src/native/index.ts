@@ -6,6 +6,8 @@ import { AppVersionMock } from './app-version';
 import { ThreeDeeTouchMock } from './three-dee-touch';
 import { NetworkMock } from './network';
 import { ScreenOrientationMock } from './screen-orientation';
+import { FileMock } from './file';
+import { FileOpenerMock } from './file-opener';
 
 export {
   AppVersionMock,
@@ -15,5 +17,7 @@ export {
   StatusBarMock,
   ThreeDeeTouchMock,
   NetworkMock,
-  ScreenOrientationMock
+  ScreenOrientationMock,
+  FileMock,
+  FileOpenerMock
 };
