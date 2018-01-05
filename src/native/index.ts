@@ -8,6 +8,7 @@ import { NetworkMock } from './network';
 import { ScreenOrientationMock } from './screen-orientation';
 import { FileMock } from './file';
 import { FileOpenerMock } from './file-opener';
+import { FingerPrintAIOMock } from './fingerprint-aio';
 
 export {
   AppVersionMock,
@@ -19,5 +20,6 @@ export {
   NetworkMock,
   ScreenOrientationMock,
   FileMock,
-  FileOpenerMock
+  FileOpenerMock,
+  FingerPrintAIOMock
 };
