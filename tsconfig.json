@@ -12,6 +12,7 @@
     "outDir": "./dist",
     "declaration": true,
     "lib": [
+      "es7",
       "es6",
       "es2015",
       "dom"
