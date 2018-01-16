@@ -8,6 +8,7 @@ export class AppMock {
       'getActiveNav',
       'getRootNavs',
       'getRootNav',
+      'getRootNavs',
       'isScrolling',
       'setTitle',
       'viewDidEnter',
@@ -19,6 +20,7 @@ export class AppMock {
     ]);
 
     instance.getRootNav.and.returnValue(navCtrl || NavControllerMock.instance());
+    instance.getRootNavs.and.returnValue(navCtrl || [NavControllerMock.instance()]);
     instance.isScrolling.and.returnValue(false);
     instance.viewDidEnter.and.returnValue(viewObservable || Observable.of(undefined));
     instance.viewDidLoad.and.returnValue(viewObservable || Observable.of(undefined));
