@@ -7,6 +7,7 @@ export class NavControllerMock {
       'setRoot',
       'popToRoot',
       'registerChildNav',
+      'unregisterChildNav',
       'ionViewDidLoad',
       'ionViewWillEnter',
       'ionViewDidEnter',
