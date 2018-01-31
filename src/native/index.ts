@@ -9,6 +9,7 @@ import { ScreenOrientationMock } from './screen-orientation';
 import { FileMock } from './file';
 import { FileOpenerMock } from './file-opener';
 import { FingerPrintAIOMock } from './fingerprint-aio';
+import { HttpMock } from './http';
 
 export {
   AppVersionMock,
@@ -21,5 +22,6 @@ export {
   ScreenOrientationMock,
   FileMock,
   FileOpenerMock,
-  FingerPrintAIOMock
+  FingerPrintAIOMock,
+  HttpMock
 };
