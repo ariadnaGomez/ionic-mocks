@@ -10,6 +10,7 @@ import { FileMock } from './file';
 import { FileOpenerMock } from './file-opener';
 import { FingerPrintAIOMock } from './fingerprint-aio';
 import { HttpMock } from './http';
+import { InAppBrowserMock } from './in-app-browser';
 
 export {
   AppVersionMock,
@@ -23,5 +24,6 @@ export {
   FileMock,
   FileOpenerMock,
   FingerPrintAIOMock,
-  HttpMock
+  HttpMock,
+  InAppBrowserMock
 };
